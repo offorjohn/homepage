@@ -5,7 +5,7 @@ import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 
 // eslint-disable-next-line import/no-unresolved
-import { RouterLink } from 'src/routes/components';
+import { RouterLink } from '../components';
 
 // ----------------------------------------------------------------------
 
