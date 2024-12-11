@@ -1325,25 +1325,32 @@ const toggleMen = () => {
             </Link>
           </Box>
 
-          {/* Text Items in Column on Small Screens */}
-          <Box
-            sx={{
-              display: { xs: "flex", md: "none" },
-              gap: 2,
-              flexDirection: "row",
-              textAlign: "center",
-              mt: 3, // Adjust this value to move the Box up
-            }}
-          >
-            <Link to="/private" style={{ textDecoration: "none" }}>
-              <Box sx={{ textDecoration: "none", mt: -5 }}>Privacy Policy</Box>
-            </Link>
-            <Link to="/terms" style={{ textDecoration: "none" }}>
-              <Box sx={{ textDecoration: "none", mt: -5 }}>
-                Terms of Service
-              </Box>
-            </Link>
-          </Box>
+         {/* Text Items in Column on Small Screens */}
+            <Box
+                    sx={{
+                        display: { xs: 'flex', md: 'none' },
+                        gap: 2,
+                        flexDirection: 'row',
+                        textAlign: 'center',
+                        mt: 3, // Adjust this value to move the Box up
+                    }}
+                >
+                    <Link to="/about" style={{ textDecoration: 'none' }}>
+
+                        <Box sx={{ textDecoration: 'none', mt: -5 }}>About</Box>
+
+                    </Link>
+                    <Link to="/private" style={{ textDecoration: 'none' }}>
+
+                        <Box sx={{ textDecoration: 'none', mt: -5 }}>Privacy Policy</Box>
+
+                    </Link>
+                    <Link to="/terms" style={{ textDecoration: 'none' }}>
+
+                        <Box sx={{ textDecoration: 'none', mt: -5 }}>Terms of Service</Box>
+
+                    </Link>
+                </Box>
 
           {/* © 2024 Otp Ninja with better font styling */}
           <Box
