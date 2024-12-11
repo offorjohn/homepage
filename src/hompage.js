@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { useTheme } from "@mui/material/styles"; // Import useTheme
 import { Grid, Stack } from "@mui/material";
-
-
+import { Link,  } from 'react-router-dom'; // Import the useNavigate hook from React Router
 
 import { Icon } from '@iconify/react';
 import TelegramIcon from "./telegram";
@@ -13,7 +12,6 @@ import CardActions from "@mui/material/CardActions";
 
 import { keyframes } from "@emotion/react";
 import Card from "@mui/material/Card";
-import { Link } from "react-router-dom";
 import Box from "@mui/material/Box"; // Import Box for layout
 import CardContent from "@mui/material/CardContent";
 import IconButton from "@mui/material/IconButton"; // Import IconButton
@@ -106,7 +104,7 @@ const LeftSidebar = () => {
                 },
               }}
               // eslint-disable-next-line no-return-assign
-              onClick={() => (window.location.href = "login")}
+              onClick={() => (window.location.href = "https://app.otpninja.com/login")}
             >
               Login
             </Typography>
@@ -500,11 +498,11 @@ const toggleMen = () => {
   // Function to navigate to the Register or Login page
   const handleMenuClick = (page) => {
     if (page === "login") {
-      // eslint-disable-next-line no-undef
-      navigate("/login"); // Navigate to the Login page
+      // Navigate to the external login page
+      window.location.href = "https://app.otpninja.com/login";
     } else if (page === "register") {
-      // eslint-disable-next-line no-undef
-      navigate("/register"); // Navigate to the Register page
+      // Navigate to the internal Register page
+      window.location.href = "https://app.otpninja.com/register";
     }
   };
 
