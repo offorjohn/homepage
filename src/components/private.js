@@ -94,7 +94,7 @@ const LeftSidebar = () => {
                   },
                 }}
                 // eslint-disable-next-line no-return-assign
-                onClick={() => (window.location.href = "login")}
+              onClick={() => (window.location.href = "https://app.otpninja.com/login")}
               >
                 Login
               </Typography>
