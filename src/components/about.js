@@ -7,7 +7,7 @@ import { Box, IconButton, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 
 import { bgGradient } from "../theme/css";
-import Logo from "../logo/logo";
+import Logo from "../logo";
 import TelegramIcon from "../telegram";
 
 // LeftSidebar component for handling the mobile menu toggle

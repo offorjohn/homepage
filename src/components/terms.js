@@ -11,8 +11,7 @@ import { Icon } from '@iconify/react';
 import { bgGradient } from '../theme/css';
 
 import CloseIcon from "@mui/icons-material/Close";
-
-import Logo from '../logo/logo';
+import Logo from '../logo';
 
 import TelegramIcon from '../telegram';
 

@@ -10,7 +10,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import { bgGradient } from '../theme/css';
 
 // eslint-disable-next-line import/no-unresolved
-import Logo from '../logo/logo';
+import Logo from '../logo';
 
 import TelegramIcon from '../telegram';
 

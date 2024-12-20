@@ -24,7 +24,7 @@ import { bgGradient } from "./theme/css";
 import "./App.css";
 
 
-import Logo from "./logo/logo"; // Assume you have a Logo component
+import Logo from "./logo"; // Assume you have a Logo component
 
 // Define the LeftSidebar component
 const LeftSidebar = () => {
